@@ -6,13 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link 
-  rel="stylesheet" 
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer" 
-/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -42,12 +38,22 @@
     <!-- About -->
     <section id="about">
         <h2>About Me</h2>
-        <p>
-            I am Ruth, a tech student passionate about building applications, solving problems,
-            and continuously learning. I enjoy working with web technologies, databases, and
-            creating useful tools that make life easier.
-        </p>
+        <div class="about-container">
+            <img src="images/coding.webp" alt="About Me Picture">
+            <div class="about-text">
+                <p>
+                    I'm Ruth, a tech student driven by curiosity and a love for problem-solving. I'm passionate about turning
+                    complex challenges into practical solutions, whether through coding, debugging, or designing
+                    user-friendly systems. My academic journey has sharpened my skills in strategic thinking, technical
+                    troubleshooting, and inclusive design. <br><br>
+
+                    I enjoy building tools that make technology more accessible and meaningful—especially for
+                    underserved communities. Every project is a chance to learn, adapt, and create with purpose.
+                </p>
+            </div>
+        </div>
     </section>
+
 
     <!-- Skills -->
     <section id="skills">
@@ -56,54 +62,66 @@
             <img src="images/html.png" alt="HTML">
             <img src="images/css.png" alt="CSS">
             <img src="images/js.webp" alt="JavaScript">
+            <img src="images/c sharp.png" alt="C#">
+            <img src="images/c.png" alt="C">
+            <img src="images/Java_Logo.svg" alt="Java">
+            <img src="images/sql.png" alt="SQL">
+            <img src="images/python.webp" alt="Python">
         </div>
     </section>
 
-    <!-- Projects -->
     <section id="projects">
         <h2>Projects</h2>
         <div class="projects-container">
-            <div class="project-card">
-                <h3>Calculator App</h3>
-                <p>A console-based calculator in C# that performs basic arithmetic operations.</p>
-                <a href="#">View Project</a>
+            <div class="project-card"
+                style="background-image: url('images/dat.jpg');background-size: contain;background-position: center;">
+                <div class="overlay">
+                    <h3>Calculator App</h3>
+                    <p>A console-based calculator in C# that performs basic arithmetic operations.</p>
+                    <a href="#">View Project</a>
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>This portfolio website built with HTML, CSS, and simple JavaScript for interactivity.</p>
-                <a href="#">View Project</a>
+
+            <div class="project-card"
+                style="background-image: url('images/cod1.jpeg');background-size: contain;background-position: center;">
+                <div class="overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>This portfolio website built with HTML, CSS, and simple JavaScript for interactivity.</p>
+                    <a href="#">View Project</a>
+                </div>
             </div>
         </div>
     </section>
 
+
     <!-- Contact -->
     <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-container">
-  <div class="contact-card">
-  <a href="mailto:ruth.gwiza@gmail.com" target="_blank">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
-  <h3>Email</h3>
-  <p><a href="mailto:ruth.gwiza@gmail.com">ruth.gwiza@gmail.com</a></p>
-</div>
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-card">
+                <a href="mailto:ruth.gwiza@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <h3>Email</h3>
+                <p><a href="mailto:ruth.gwiza@gmail.com">ruth.gwiza@gmail.com</a></p>
+            </div>
 
-<div class="contact-card">
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-  </a>
-  <h3>LinkedIn</h3>
-  <p><a href="#">linkedin.com/in/yourprofile</a></p>
-</div>
+            <div class="contact-card">
+                <a href="https://www.linkedin.com/in/ruth-ishimwe-9917501ab/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/ruth-ishimwe-9917501ab/">Ruth Ishimwe</a></p>
+            </div>
 
-<div class="contact-card">
-  <a href="https://github.com/yourusername" target="_blank">
-    <i class="fa-brands fa-github"></i>
-  </a>
-  <h3>GitHub</h3>
-  <p><a href="#">github.com/yourusername</a></p>
-</div>
-</div>
+            <div class="contact-card">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/Ruth-IGR">Ruth-IGR</a></p>
+            </div>
+        </div>
     </section>
 
 
